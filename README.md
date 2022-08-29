@@ -10,6 +10,7 @@
 ![화면 캡처 2022-08-29 111025](https://user-images.githubusercontent.com/105402314/187109419-cbe81c10-f5ce-4501-bdb9-2ad3d2955f9b.png)
   헤더 로고 제작<br>
   각 메뉴 링크 연결, 스크롤 시 각 섹션마다 색상 밑줄기능<br>
+  헤더 fixed 고정<br>
   텍스트 aos 기능<br>
   버튼 aos 기능 , 클릭 시 다음섹션으로 이동
   
