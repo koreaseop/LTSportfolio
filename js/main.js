@@ -23,7 +23,7 @@ $(function () {
         });
         // about
         $(window).on('scroll', function () {
-            if (Aboutsection <= scrollposition + 10) {
+            if (Aboutsection <= scrollposition + 50) {
                 $('.idc-about').addClass('on');
                 $('.idc-home').removeClass('on');
             } else {
@@ -33,7 +33,7 @@ $(function () {
         
         // work
         $(window).on('scroll', function () {
-            if (Worksection <= scrollposition + 20) {
+            if (Worksection <= scrollposition + 100) {
                 $('.idc-work').addClass('on');
                 $('.idc-about').removeClass('on');
             } else {
@@ -42,7 +42,7 @@ $(function () {
         });
         // contact
         $(window).on('scroll', function () {
-            if (1800 <= scrollposition) {
+            if (2500 <= scrollposition) {
                 $('.idc-contact').addClass('on');
                 $('.idc-work').removeClass('on');
             } else {

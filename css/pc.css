@@ -93,15 +93,15 @@ header nav ul.gnb>li:hover>a {
 #about .info {
     position: absolute;
     top: 25%;
-    left: 10%;
+    left: 15%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 #about .info .photo {
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
     background: url(../images/me.jpg);
     background-size: cover;
     background-position: bottom;
@@ -132,18 +132,18 @@ header nav ul.gnb>li:hover>a {
 
 #about .intro {
     position: absolute;
-    top: 15%;
-    right: 15%;
+    top: 25%;
+    right: 20%;
 }
 
 #about .intro h1 {
     color: #494FEC;
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 700;
 }
 
 #about .intro p {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
 }
 
@@ -249,20 +249,27 @@ header nav ul.gnb>li:hover>a {
     padding-bottom: 50px;
     bottom: 10vh;
     position: relative;
-  }
+}
 
-  .swiper-slide {
+.swiper-slide {
     background-position: center;
     background-size: cover;
     width: 500px;
     height: 500px;
-  }
-  .swiper-pagination-bullet { 
+}
+
+.swiper .swiper-pagination {
+    position: absolute;
+    bottom: 80px; 
+}
+
+
+.swiper-pagination-bullet { 
     width: 15px; 
     height: 15px; 
     background: #fff; 
     border: 1px solid #494FEC; 
-    opacity: 1; 
+    opacity: 1;
 }
 
 .swiper-pagination-bullet-active { 
@@ -274,7 +281,7 @@ header nav ul.gnb>li:hover>a {
 .swiper-button-next {
     position: absolute;
     right: 100px;
-    top: 60%;
+    top: 50%;
     width: 70px;
     height: 70px;
     border-radius: 50%;
@@ -283,10 +290,10 @@ header nav ul.gnb>li:hover>a {
     color: #494FEC;
 }
   
-  .swiper-button-prev {
+.swiper-button-prev {
     position: absolute;
     left: 100px;
-    top: 60%;
+    top: 50%;
     width: 70px;
     height: 70px;
     border-radius: 50%;
@@ -312,7 +319,7 @@ header nav ul.gnb>li:hover>a {
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 20vh;
+    top: 30vh;
     left: 50%;
     transform: translateX(-50%);
 }
