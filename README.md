@@ -1,4 +1,5 @@
 # LTSportfolio
+ 깃허브 링크 : https://github.com/koreaseop/LTSportfolio <br>
  포트폴리오 사이트 : https://koreaseop.github.io/LTSportfolio/
 
 ## 제작목표
