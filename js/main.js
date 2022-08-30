@@ -42,7 +42,7 @@ $(function () {
         });
         // contact
         $(window).on('scroll', function () {
-            if (2500 <= scrollposition) {
+            if (2200 <= scrollposition) {
                 $('.idc-contact').addClass('on');
                 $('.idc-work').removeClass('on');
             } else {
