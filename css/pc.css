@@ -1,3 +1,11 @@
+#toggle-btn {
+    display: none;
+}
+
+#menu {
+    display: none;
+}
+
 header {
     width: 100vw;
     height: 80px;
@@ -93,7 +101,7 @@ header nav ul.gnb>li:hover>a {
 #about .info {
     position: absolute;
     top: 25%;
-    left: 15%;
+    left: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -319,7 +327,7 @@ header nav ul.gnb>li:hover>a {
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 30vh;
+    top: 25vh;
     left: 50%;
     transform: translateX(-50%);
 }
