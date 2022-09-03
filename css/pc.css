@@ -241,13 +241,49 @@ header nav ul.gnb>li:hover>a {
 #work .works .work_img {
     width: 500px;
     height: 500px;
-    background: #494FEC;
+    background: #fff;
+     display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.work_img img {
+    height: 500px;
+}
+
 
 #work .works .work_txt {
     width: 500px;
     height: 500px;
+    background: #494FEC;
+    color: #fff;
+    padding: 30px;
+}
+
+.work_txt h1 {
+    margin-bottom: 20px;
+}
+
+.work_txt h2 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.work_txt  p {
+    line-height: 2;
+}
+
+.click button{
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
     background: #fff;
+    text-align: center;
+    border: none;
+    border-radius: 50px;
+    margin-top: 70px;
+    margin-right: 20px;
+    color: #494FEC;
 }
 
 .swiper {

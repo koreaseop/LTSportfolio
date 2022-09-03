@@ -201,14 +201,54 @@ header nav{
 #work .works .work_img {
     width: 200px;
     height: 200px;
-    background: #494FEC;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.work_img img {
+    height: 200px;
 }
 
 #work .works .work_txt {
     width: 200px;
     height: 200px;
-    background: #fff;
+    background: #494FEC;
+    color: #fff;
+    padding: 10px
 }
+
+.work_txt h1 {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.work_txt h2 {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.work_txt p {
+    font-size: 10px;
+}
+
+.click button{
+    width: 50px;
+    height: 10px;
+    line-height: 10px;
+    background: #fff;
+    text-align: center;
+    border: none;
+    border-radius: 50px;
+    margin-right: 10px;
+    color: #494FEC;
+}
+
+.click button a {
+    font-size: 8px;
+}
+
 
 .swiper {
     width: 100vw;
