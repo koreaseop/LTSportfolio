@@ -33,6 +33,7 @@ header nav{
     margin-right: 80px;
 }
 
+
 header nav ul.gnb {
     width: 100%;
 }
@@ -100,16 +101,17 @@ header nav ul.gnb>li:hover>a {
 
 #about .info {
     position: absolute;
-    top: 25%;
-    left: 10%;
-    display: flex;
+    top: 15%;
+    left: 15%;
+    display: block;
     justify-content: center;
     align-items: center;
 }
 
+
 #about .info .photo {
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     background: url(../images/me.jpg);
     background-size: cover;
     background-position: bottom;
@@ -117,8 +119,8 @@ header nav ul.gnb>li:hover>a {
 }
 
 #about .info .idea {
-    margin-left: 50px;
     text-align: center;
+    margin-top: 15px;
 }
 
 #about .info .idea h2 {
@@ -140,9 +142,19 @@ header nav ul.gnb>li:hover>a {
 
 #about .intro {
     position: absolute;
-    top: 25%;
+    top: 20%;
     right: 15%;
 }
+
+@media screen and (max-width: 1000px) {
+    #about .intro {
+      right: 0%;
+    }
+
+    #about .info {
+        left: 0%;
+    }
+  }
 
 #about .intro h1 {
     color: #494FEC;
@@ -165,7 +177,7 @@ header nav ul.gnb>li:hover>a {
 }
 
 #about .intro .me p {
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 
 #about .intro .edu {
@@ -174,12 +186,12 @@ header nav ul.gnb>li:hover>a {
 }
 
 #about .intro .edu h1 {
-    padding-top: 10px;
+    padding-top: 30px;
     padding-bottom: 15px;
 }
 
 #about .intro .edu p {
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 
 #about .intro .license {
@@ -188,12 +200,12 @@ header nav ul.gnb>li:hover>a {
 }
 
 #about .intro .license h1 {
-    padding-top: 10px;
+    padding-top: 30px;
     padding-bottom: 15px;
 }
 
 #about .intro .license p {
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 
 #about .skill {
@@ -201,7 +213,7 @@ header nav ul.gnb>li:hover>a {
 }
 
 #about .skill h1 {
-    padding-top: 10px;
+    padding-top: 30px;
     padding-bottom: 15px;
 }
 

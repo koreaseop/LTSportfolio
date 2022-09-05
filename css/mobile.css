@@ -127,7 +127,7 @@ header nav{
 }
 
 #about .intro .me p {
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 
 #about .intro .edu {
@@ -136,12 +136,12 @@ header nav{
 }
 
 #about .intro .edu h1 {
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 15px;
 }
 
 #about .intro .edu p {
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 
 #about .intro .license {
@@ -150,18 +150,16 @@ header nav{
 }
 
 #about .intro .license h1 {
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 15px;
 }
 
 #about .intro .license p {
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 
-
-
 #about .skill h1 {
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 15px;
 }
 
@@ -239,7 +237,6 @@ header nav{
     text-align: center;
     border: none;
     border-radius: 50px;
-    margin-right: 10px;
     color: #494FEC;
 }
 
